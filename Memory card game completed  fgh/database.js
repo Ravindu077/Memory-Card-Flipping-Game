@@ -3,7 +3,7 @@ var con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
-    database: "memorygame",
+    database: "Your_db_name",
 })
 
 const auth = getAuth();
