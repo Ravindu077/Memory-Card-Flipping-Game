@@ -1,0 +1,64 @@
+/* CSS from https://getcssscan.com/css-buttons-examples */
+h1 {
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+body {
+    background-color: #b6b5dd; /* You can replace #ff0000 with your desired color code */
+}
+
+.button-62 {
+    background: linear-gradient(to bottom right, #dcdcdc, rgb(107, 90, 255));
+    border: 0;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+
+
+.h2-62 {
+    line-height: 2.5;
+}
+
+
+.button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(25, 16, 110, 0.5), .125rem .125rem 1rem rgba(118, 90, 255, 0.5)
+}
+
+.button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(23, 20, 104, 0.5), .125rem .125rem 1rem rgba(14, 37, 90, 0.5);
+}
+
+#quest {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
+  }
+
+  div {
+  text-align: center; /* Center the text horizontally */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#input {
+  margin-top: 10px; /* Add some top margin to the input field for spacing */
+}
+
